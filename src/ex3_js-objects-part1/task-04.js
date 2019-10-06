@@ -1,6 +1,6 @@
 function addProperty(property, object) {
   let copy = object;
-  for(var key in copy){
+  for(let key in copy){
       if(!(property in copy)){
        copy[property] = 'new';
       }    

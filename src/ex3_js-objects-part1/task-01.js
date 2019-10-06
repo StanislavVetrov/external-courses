@@ -1,4 +1,4 @@
-var figure = {};
+let figure = {};
 figure.width = 200;
 figure.height = 300;
 figure.name = 'rectangle';

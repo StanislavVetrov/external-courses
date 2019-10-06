@@ -1,6 +1,6 @@
 function deepCopy(object) {
   let copy = {};
-  for (var key in object) {
+  for (let key in object) {
     if (Array.isArray(object)) {
       copy = [];
       for (let i = 0; i < object.length; i++) {

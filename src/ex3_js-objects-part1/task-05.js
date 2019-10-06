@@ -1,6 +1,6 @@
 function copyObject(object) {
     let storage = {};
-    for (var key in object) {
+    for (let key in object) {
       if(object.hasOwnProperty(key)){
         storage[key] = object[key];
       }      
