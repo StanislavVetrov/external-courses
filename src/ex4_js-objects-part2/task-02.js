@@ -1,6 +1,5 @@
 function createObjectWithoutProto () {
-   const me = Object.create(null,{});
-   return me
+   return Object.create(null,{});
 }
 
 module.exports = createObjectWithoutProto;
