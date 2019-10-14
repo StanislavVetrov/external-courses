@@ -1,6 +1,5 @@
 function randomNumInRange (min,max) {
-    let num = Math.floor(Math.random()*(+max - +min)) + +min;
-    return num
+    return Math.floor(Math.random()*(+max - +min)) + +min;
 }
 
 module.exports = randomNumInRange;
