@@ -5,6 +5,6 @@ function mapReWrite(array, callback) {
     }
     return copy;
   }
-  
+  //
   module.exports = mapReWrite;
   

@@ -6,6 +6,6 @@ function everyReWrite(array, callback) {
     }
     return true;
   }
-  
+  //
   module.exports = everyReWrite;
   

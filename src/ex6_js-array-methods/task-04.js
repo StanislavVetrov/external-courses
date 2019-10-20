@@ -7,6 +7,6 @@ function filterReWrite(array, callback) {
     }
     return copy;
   }
-  
+  //
   module.exports = filterReWrite;
   
