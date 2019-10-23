@@ -1,0 +1,13 @@
+
+    ul{
+        background-color: green;                 
+    }
+    ol{
+        background-color: rgb(230, 226, 25);
+    }
+    li::first-letter {
+        font-size: 130%
+    }
+    
+    
+    
