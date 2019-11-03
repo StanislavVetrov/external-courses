@@ -10,7 +10,9 @@ function countEntries (string) {
     }      
   }
   for(key in result){
-      console.log(`${key} meets ${result[key]} time(s)`);   
+    if (Object.prototype.hasOwnProperty.call(result, key)){
+      console.log(`${key} meets ${result[key]} time(s)`);      
+    }
   }
 }
 
