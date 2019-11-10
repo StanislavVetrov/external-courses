@@ -1,0 +1,61 @@
+#animatedFigure{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    position: relative;
+    left: 200px;
+    top: 200px;
+    animation-name: endlessAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes endlessAnimation {
+
+    0%{
+        border-radius: 100%;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        
+    }
+    
+    20%{ 
+        border-radius: 0%; /*фигура превращается в квадрат*/
+    }
+
+    40%{
+        border-radius: 0%; /*меняется градиент*/
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,149,149,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    60%{
+        border-radius: 0%; /*меняется рзамер и искажается по икс*/
+        transform: scale(1.5);
+    }
+
+    70%{
+
+        border-radius: 0%; /*вращается*/
+        transform: rotate(90deg);
+    }
+    80%{
+        border-radius: 0%; /*вращается*/
+        transform: skewY(30deg);
+    }
+    90%{
+        border-radius: 0%; /*меняется градиент*/
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,135,1) 100%);
+    }
+
+    100%{
+        /*фигура стала кругом*/
+        border-radius: 100%;
+
+    }
+
+}

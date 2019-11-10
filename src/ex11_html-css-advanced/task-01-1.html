@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task-01-1</title>
+    <link href="task-01-1.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Preloader for a page...</h1>
+    <div class="loader">
+        <img src="./assets/loading.gif" alt="loading...">
+    </div>
+    <img src="./assets/moto1.jpeg" class="thumb">
+    <img src="./assets/moto2.jpeg" class="thumb">
+    <img src="./assets/moto3.jpeg" class="thumb">
+
+    <script>
+        window.addEventListener("load", function(){
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"; // class = "loader hidden"
+        });
+    </script>
+</body>
+</html>
