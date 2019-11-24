@@ -1,0 +1,135 @@
+header{
+    width:1152px;
+    height: 55px;
+    background-color: #0067A3;
+}
+
+#kanbanLogo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 384px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 5px 14px;
+}
+
+#newListBtn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    width: 181px;
+    height: 33px;
+    left: 858px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 11px;
+    
+    
+}
+#newListBtn>img{
+    padding: 5px 9px 6px;
+}
+#newListBtn>span{
+    position: absolute;
+    width: 140px;
+    height: 18px;
+    left: 44px;
+    top: 5px;
+}
+#human, #ellipse {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: 7px;   
+}
+#human{
+    z-index: 1;
+}
+#elipse{
+    z-index: 0;
+}
+
+#userMenu{
+    position: absolute;
+    width: 64px;
+    height: 40px;
+    left: 1088px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    margin: 10px;
+    position: absolute;
+    width: 1152px;
+    height: 55px;
+    left: 0px;
+    top: 645px;
+    background-color: #0067A3;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+#activeTasks{    
+    position: absolute;
+    height: 21px;
+    left: 67px;
+    top: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#finishedTasks{
+    position: absolute;
+    height: 21px;
+    left: 241px;
+    top: 17px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#madeBy{
+    position: absolute;
+    height: 21px;
+    right: 24px;
+    top: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+#vector{
+    color: white;
+    cursor: pointer;
+}
+   
+
+
