@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="task-02.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="task-03.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Awesome Kanban board</title>
+</head>
+<body>
+    <header>
+        <div class="kanbanLogo"> <img src="./images/logo.png" alt="kanbanLogo">Awesome Kanban board </div>
+        <button class="newListBtn"><img src="./images/add-list.png" alt="createNewListIcon">Create new list </button>
+        <div class="userAvatar" ><img src="./images/user-avatar.png" alt="userAvatar" ></div>                               
+        <div id="arrow" class="arrow" onclick="toggleList()"><img src="./images/Vector.png" alt="dropdownArrow"></div>
+    </header>   
+    <main>
+        <menu id="dropdown">
+            <li>My tasks</li>
+            <li>My account</li>
+            <li>Log out</li>
+            <li>Settings</li>
+        </menu>
+    </main>
+    <footer>
+        <div class="activeTasks"> Active tasks: 3</div>
+        <div class="finishedTasks"> Finished tasks: 4</div>
+        <div class="boardName">Kanban board by: Stanislav Vetrov, 2019</div>
+    </footer>
+</body>
+</html>
